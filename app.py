@@ -52,5 +52,5 @@ if st.button("Predict"):
 
 
         
-with open('gender_classification_model.pkl', 'wb') as file:
+with open('diabetic_model.pkl', 'wb') as file:
     pickle.dump(model,file)
